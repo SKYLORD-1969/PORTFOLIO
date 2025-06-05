@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylord 69: Architect of Tomorrow's Intelligence</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2300D1FF' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9V7h2v10zm4 0h-2V7h2v10z'/%3E%3Csvg%3E" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Primary Meta Tags -->
+    <title>Akash | Architect of AGI’s Soul | AI Visionary & Entrepreneur</title>
+    <meta name="title" content="Akash | Architect of AGI’s Soul | AI Visionary & Entrepreneur">
+    <meta name="description" content="Akash, 19-year-old AI strategist and entrepreneur building the culture layer of AGI. Creator of AGRO AI and SENTRY AI. Passionate about ethical AI, prompt engineering, and future tech.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akash69.io/">
+    <meta property="og:title" content="Akash | Architect of AGI’s Soul | AI Visionary & Entrepreneur">
+    <meta property="og:description" content="Building next-generation AI frameworks & projects like AGRO AI and SENTRY AI. Explore AI alignment, prompt engineering, and ethical AGI design.">
+    <meta property="og:image" content="https://akash69.io/assets/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://akash69.io/">
+    <meta property="twitter:title" content="Akash | Architect of AGI’s Soul | AI Visionary & Entrepreneur">
+    <meta property="twitter:description" content="AI strategist and entrepreneur crafting the future of AGI with ethical frameworks and innovative projects.">
+    <meta property="twitter:image" content="https://akash69.io/assets/twitter-image.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://akash69.io/">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Keywords (less important but can help) -->
+    <meta name="keywords" content="AI strategist, AGI architect, ethical AI, AI entrepreneur, prompt engineering, AI alignment, AGRO AI, SENTRY AI, future technology, AI visionary, Akash AI">
+    
+    <style>
+        /* Base Styles */
+        :root {
+            --primary-bg-start: #0a0a0a; /* gray-950 */
+            --primary-bg-mid: #18181b;   /* zinc-900 */
+            --primary-bg-end: #000000;   /* black */
+            --text-light: #e4e4e7;       /* gray-200 */
+            --text-muted: #a1a1aa;       /* gray-400 */
+            --text-heading-gradient-start: #22d3ee; /* sky-400 */
+            --text-heading-gradient-end: #a855f7;  /* purple-500 */
+            --accent-teal: #2dd4bf;      /* teal-400 */
+            --accent-indigo: #6366f1;    /* indigo-500 */
+            --border-color: #3f3f46;     /* zinc-700 */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom right, var(--primary-bg-start), var(--primary-bg-mid), var(--primary-bg-end));
+            color: var(--text-light);
+            min-height: 100vh;
+            margin: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text-light);
+        }
+
+        /* Utility Classes (Simplified Tailwind-like) */
+        .container {
+            max-width: 96rem; /* Equivalent to max-w-6xl for wider screens */
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        @media (min-width: 768px) {
+            .md\\:container {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+
+        .flex { display: flex; }
+        .justify-center { justify-content: center; }
+        .items-center { align-items: center; }
+        .flex-col { flex-direction: column; }
+        .space-x-6 > *:not(:first-child) { margin-left: 1.5rem; }
+        .space-x-4 > *:not(:first-child) { margin-left: 1rem; }
+        .space-y-6 > *:not(:first-child) { margin-top: 1.5rem; }
+
+        .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+        .py-32 { padding-top: 8rem; padding-bottom: 8rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .p-8 { padding: 2rem; }
+        .pb-4 { padding-bottom: 1rem; }
+        .pt-4 { padding-top: 1rem; }
+        .my-4 { margin-top: 1rem; margin-bottom: 1rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mb-12 { margin-bottom: 3rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .ml-2 { margin-left: 0.5rem; }
+        .ml-3 { margin-left: 0.75rem; }
+        .mr-2 { margin-right: 0.5rem; }
+        .mr-4 { margin-right: 1rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+
+        .text-center { text-align: center; }
+        .text-sm { font-size: 0.875rem; }
+        .text-base { font-size: 1rem; }
+        .text-lg { font-size: 1.125rem; }
+        .text-xl { font-size: 1.25rem; }
+        .text-2xl { font-size: 1.5rem; }
+        .text-3xl { font-size: 1.875rem; }
+        .text-4xl { font-size: 2.25rem; }
+        .text-5xl { font-size: 3rem; }
+        @media (min-width: 768px) {
+            .md\\:text-2xl { font-size: 1.5rem; }
+            .md\\:text-5xl { font-size: 3rem; }
+            .md\\:text-7xl { font-size: 4.5rem; }
+            .md\\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .md\\:py-32 { padding-top: 8rem; padding-bottom: 8rem; }
+            .md\\:block { display: block; }
+        }
+        @media (min-width: 1024px) {
+            .lg\\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+        }
+
+        .font-bold { font-weight: 700; }
+        .font-semibold { font-weight: 600; }
+        .font-extrabold { font-weight: 800; }
+        .leading-tight { line-height: 1.25; }
+        .leading-relaxed { line-height: 1.625; }
+        .tracking-tight { letter-spacing: -0.025em; }
+
+        .text-white { color: #fff; }
+        .text-gray-200 { color: var(--text-light); }
+        .text-gray-300 { color: #d1d5db; }
+        .text-gray-400 { color: var(--text-muted); }
+        .text-gray-500 { color: #6b7280; }
+        .text-gray-900 { color: #111827; }
+        .text-teal-300 { color: #4ee6d3; }
+        .text-teal-400 { color: var(--accent-teal); }
+        .text-blue-300 { color: #93c5fd; }
+        .text-blue-400 { color: #60a5fa; }
+        .text-purple-300 { color: #d8b4fe; }
+        .text-purple-400 { color: #c084fc; }
+        .text-red-400 { color: #f87171; }
+        .text-yellow-300 { color: #fde047; }
+        .text-green-400 { color: #4ade80; }
+        .text-indigo-400 { color: #818cf8; }
+        .text-pink-400 { color: #f472b6; }
+        .text-orange-400 { color: #fb923c; }
+        .text-fuchsia-300 { color: #e879f9; }
+        .text-sky-300 { color: #7dd3fc; }
+        .text-transparent { color: transparent; }
+        .bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+        .bg-gradient-to-r { background-image: linear-gradient(to right, var(--tw-gradient-stops)); }
+        .bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); }
+        .from-teal-400 { --tw-gradient-from: #2dd4bf; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(45, 212, 191, 0)); }
+        .via-sky-500 { --tw-gradient-via: #0ea5e9; }
+        .to-indigo-600 { --tw-gradient-to: #4f46e5; }
+        .from-sky-400 { --tw-gradient-from: #38bdf8; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(56, 189, 248, 0)); }
+        .to-purple-500 { --tw-gradient-to: #a855f7; }
+        .from-teal-500 { --tw-gradient-from: #14b8a6; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(20, 184, 166, 0)); }
+        .to-blue-600 { --tw-gradient-to: #2563eb; }
+        .from-purple-600 { --tw-gradient-from: #9333ea; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(147, 51, 234, 0)); }
+        .to-indigo-700 { --tw-gradient-to: #4338ca; }
+        .from-teal-400 { --tw-gradient-from: #2dd4bf; }
+        .to-blue-500 { --tw-gradient-to: #3b82f6; }
+        .from-purple-400 { --tw-gradient-from: #c084fc; }
+        .to-sky-500 { --tw-gradient-to: #0ea5e9; }
+
+        .bg-zinc-800 { background-color: #27272a; }
+        .bg-zinc-700 { background-color: #3f3f46; }
+        .bg-zinc-900 { background-color: #18181b; }
+        .bg-gradient-to-br-yellow-zinc { background: linear-gradient(to bottom right, #a16207, #27272a); } /* yellow-900 to zinc-800 */
+        .bg-yellow-700\\/50 { background-color: rgba(161, 98, 7, 0.5); }
+        .bg-zinc-700 { background-color: #3f3f46; }
+        .bg-purple-800\\/50 { background-color: rgba(91, 17, 182, 0.5); }
+        .bg-teal-800\\/50 { background-color: rgba(26, 94, 90, 0.5); }
+        .bg-black\\/80 { background-color: rgba(0, 0, 0, 0.8); }
+        .bg-white\\/20 { background-color: rgba(255, 255, 255, 0.2); }
+        .bg-gradient-to-t { background-image: linear-gradient(to top, var(--tw-gradient-stops)); }
+        .from-black\\/80 { --tw-gradient-from: rgba(0, 0, 0, 0.8); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0)); }
+        .to-transparent { --tw-gradient-to: transparent; }
+        .bg-gradient-to-br-teal-purple { background-image: linear-gradient(to bottom right, rgba(45, 212, 191, 0.3), rgba(168, 85, 247, 0.3)); }
+        .bg-blue-500 { background-color: #3b82f6; }
+        .bg-gray-500 { background-color: #6b7280; }
+        .bg-purple-500 { background-color: #a855f7; }
+
+        .border { border-width: 1px; border-style: solid; }
+        .border-zinc-700 { border-color: var(--border-color); }
+        .border-yellow-700 { border-color: #a16207; }
+        .border-teal-400 { border-color: var(--accent-teal); }
+        .border-b { border-bottom-width: 1px; }
+        .border-t { border-top-width: 1px; }
+        .border-zinc-800 { border-color: #27272a; }
+
+        .rounded-full { border-radius: 9999px; }
+        .rounded-lg { border-radius: 0.5rem; }
+        .rounded-xl { border-radius: 0.75rem; }
+
+        .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); }
+        .shadow-2xl { box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25); }
+
+        .relative { position: relative; }
+        .absolute { position: absolute; }
+        .fixed { position: fixed; }
+        .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+        .top-0 { top: 0; }
+        .right-0 { right: 0; }
+        .left-0 { left: 0; }
+        .bottom-0 { bottom: 0; }
+
+        .z-0 { z-index: 0; }
+        .z-10 { z-index: 10; }
+        .z-50 { z-index: 50; }
+
+        .overflow-hidden { overflow: hidden; }
+        .overflow-x-hidden { overflow-x: hidden; }
+        .overflow-y-auto { overflow-y: auto; }
+
+        .h-screen { height: 100vh; }
+        .w-full { width: 100%; }
+        .h-auto { height: auto; }
+        .h-48 { height: 12rem; } /* 192px */
+        .max-w-4xl { max-width: 56rem; } /* 896px */
+        .max-w-6xl { max-width: 72rem; } /* 1152px */
+        .max-h-\\[90vh\\] { max-height: 90vh; }
+
+        .pointer-events-none { pointer-events: none; }
+        .object-cover { object-fit: cover; }
+
+        .backdrop-blur-md { backdrop-filter: blur(8px); }
+        .opacity-0 { opacity: 0; }
+        .opacity-20 { opacity: 0.2; }
+        .opacity-100 { opacity: 1; }
+
+        .transition-colors { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+        .transition-opacity { transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+        .transition-transform { transition-property: transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+        .transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 300ms; }
+        .duration-300 { transition-duration: 300ms; }
+        .duration-500 { transition-duration: 500ms; }
+
+        .group:hover .group-hover\\:scale-105 { transform: scale(1.05); }
+        .group:hover .group-hover\\:scale-110 { transform: scale(1.1); }
+        .group:hover .group-hover\\:text-teal-300 { color: #4ee6d3; }
+        .group:hover .group-hover\\:opacity-100 { opacity: 1; }
+        .group:hover .group-hover\\:opacity-20 { opacity: 0.2; }
+
+        .scale-x-0 { transform: scaleX(0); }
+        .group:hover .group-hover\\:scale-x-100 { transform: scaleX(1); }
+        .origin-left { transform-origin: left; }
+
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+
+        /* Custom Cursor */
+        .custom-cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            background: radial-gradient(circle, rgba(70, 200, 255, 0.7) 0%, rgba(200, 100, 255, 0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: width 0.1s, height 0.1s, background 0.1s;
+            z-index: 9999;
+            box-shadow: 0 0 15px rgba(70, 200, 255, 0.5);
+        }
+        body:hover .custom-cursor {
+            width: 30px;
+            height: 30px;
+        }
+        /* Hide custom cursor on small screens */
+        @media (max-width: 767px) {
+            .custom-cursor {
+                display: none;
+            }
+        }
+
+        /* Particle Background - Simple CSS implementation */
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            pointer-events: none;
+        }
+
+        .particles::before, .particles::after,
+        .particles div:nth-child(1), .particles div:nth-child(2) {
+            content: '';
+            position: absolute;
+            background: rgba(var(--particle-color, 255, 255, 255), 0.1);
+            border-radius: 50%;
+            animation: particle-move var(--duration) linear infinite;
+        }
+
+        .particles::before {
+            width: 8px;
+            height: 8px;
+            top: 20%;
+            left: 10%;
+            --duration: 15s;
+            --particle-color: 70, 200, 255; /* Teal-ish */
+            animation-delay: 0s;
+        }
+
+        .particles::after {
+            width: 12px;
+            height: 12px;
+            top: 80%;
+            left: 90%;
+            --duration: 20s;
+            --particle-color: 200, 100, 255; /* Purple-ish */
+            animation-delay: 5s;
+        }
+
+        .particles div:nth-child(1) {
+            width: 6px;
+            height: 6px;
+            top: 50%;
+            left: 50%;
+            --duration: 18s;
+            --particle-color: 255, 200, 70; /* Amber */
+            animation-delay: 10s;
+        }
+        .particles div:nth-child(2) {
+            width: 10px;
+            height: 10px;
+            top: 70%;
+            left: 30%;
+            --duration: 22s;
+            --particle-color: 70, 255, 200; /* Green-ish */
+            animation-delay: 15s;
+        }
+
+        @keyframes particle-move {
+            0% { transform: translate(0, 0) scale(1); opacity: 0.1; }
+            25% { opacity: 0.4; }
+            50% { transform: translate(calc(var(--rand-x, 1) * 100vw), calc(var(--rand-y, 1) * 100vh)) scale(1.2); opacity: 0.1); }
+            75% { opacity: 0.4; }
+            100% { transform: translate(0, 0) scale(1); opacity: 0.1); }
+        }
+
+        /* Animation for border pulse on image hover */
+        @keyframes pulse-border {
+            0% {
+                box-shadow: 0 0 0 0 var(--border-color);
+                opacity: 0.7;
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(var(--border-color), 0);
+                opacity: 0;
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(var(--border-color), 0);
+                opacity: 0;
+            }
+        }
+        .animate-pulse-border {
+            animation: pulse-border var(--pulse-duration) infinite;
+        }
+
+        /* Modal Specific Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+            pointer-events: none; /* Allows clicks through when not open */
+        }
+        .modal-overlay.open {
+            opacity: 1;
+            pointer-events: auto; /* Enables clicks when open */
+        }
+        .modal-content {
+            background-color: #18181b; /* zinc-900 */
+            border: 1px solid #3f3f46; /* zinc-700 */
+            border-radius: 0.75rem;
+            max-width: 56rem; /* max-w-4xl */
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 1.5rem;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+            transform: scale(0.9) translateY(20px);
+            opacity: 0;
+            transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+        }
+        .modal-overlay.open .modal-content {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        .modal-close-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            color: #a1a1aa;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 9999px;
+            transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+        }
+        .modal-close-button:hover {
+            background-color: #3f3f46; /* zinc-700 */
+            color: #fff;
+        }
+        .modal-title {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(to right, var(--accent-teal), #3b82f6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .modal-description {
+            font-size: 1.125rem;
+            color: #a1a1aa;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #3f3f46;
+        }
+        .modal-section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        .modal-section-content {
+            color: #d1d5db;
+        }
+        .modal-source-docs {
+            font-size: 0.875rem;
+            color: #6b7280;
+            padding-top: 1rem;
+            border-top: 1px solid #27272a;
+            margin-top: 1.5rem;
+        }
+        .modal-source-docs h5 {
+            font-weight: 600;
+            color: #a1a1aa;
+            margin-bottom: 0.25rem;
+        }
+        .modal-source-docs ul {
+            list-style: disc;
+            padding-left: 1.25rem;
+        }
+
+        /* Scroll-triggered animations (basic example) */
+        .fade-in-on-scroll {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .fade-in-on-scroll.in-view {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .scale-in-on-scroll {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .scale-in-on-scroll.in-view {
+            opacity: 1;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor hidden md:block" style="--mouse-x: 0px; --mouse-y: 0px;"></div>
+
+    <!-- Background Particles -->
+    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none opacity-20">
+        <div class="particles">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-black/80 to-transparent p-4 flex justify-center text-sm">
+        <ul class="flex space-x-6">
+            <li><a href="#hero" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 relative group">Hero<span class="absolute left-0 bottom-0 w-full h-0.5 bg-teal-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span></a></li>
+            <li><a href="#about" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 relative group">About<span class="absolute left-0 bottom-0 w-full h-0.5 bg-teal-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span></a></li>
+            <li><a href="#skills" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 relative group">Skills<span class="absolute left-0 bottom-0 w-full h-0.5 bg-teal-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span></a></li>
+            <li><a href="#projects" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 relative group">Projects<span class="absolute left-0 bottom-0 w-full h-0.5 bg-teal-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span></a></li>
+            <li><a href="#contact" class="text-gray-400 hover:text-teal-400 transition-colors duration-300 relative group">Contact<span class="absolute left-0 bottom-0 w-full h-0.5 bg-teal-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span></a></li>
+        </ul>
+    </nav>
+
+    <main class="relative z-10 w-full">
+        <!-- Hero Section -->
+        <section id="hero" class="relative h-screen flex flex-col items-center justify-center text-center overflow-hidden">
+            <div class="z-10 max-w-4xl px-4 fade-in-on-load">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4 tracking-tight">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-sky-500 to-indigo-600 animate-text-reveal">I Don't Want a Job.</span><br>
+                    <span class="animate-text-reveal delay-200">I Want to Evolve with AI.</span>
+                </h1>
+                <p class="text-lg md:text-2xl text-gray-300 mb-8 fade-in-on-load delay-400">
+                    Skylord 69: Strategic Architect of the Post-Human Future | AGI Design Strategist
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <button onclick="smoothScroll('about')" class="relative px-8 py-3 text-lg font-semibold rounded-full overflow-hidden bg-gradient-to-br from-teal-500 to-blue-600 text-white shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl fade-in-on-load delay-600">
+                        <span class="relative z-10">Unveil the Blueprint</span>
+                        <div class="absolute inset-0 bg-gradient-to-br from-teal-400 to-blue-500 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                    </button>
+                    <button onclick="smoothScroll('contact')" class="relative px-8 py-3 text-lg font-semibold rounded-full overflow-hidden bg-gradient-to-br from-purple-600 to-indigo-700 text-white shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl fade-in-on-load delay-700">
+                        <span class="relative z-10">Forge a Connection</span>
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-indigo-600 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 md:py-32 px-4 md:px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-500 mb-12 fade-in-on-scroll">
+                The Ideologist's Origin: Designing the Soul of AGI
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative group overflow-hidden rounded-xl shadow-lg bg-zinc-800 p-2 border border-zinc-700 scale-in-on-scroll">
+                    <img
+                        src="https://placehold.co/600x400/3B0764/E0F2F7?text=Skylord+Profile"
+                        alt="Skylord Profile"
+                        class="w-full h-auto rounded-lg object-cover"
+                    />
+                    <div class="absolute inset-0 bg-gradient-to-br from-purple-800/50 via-transparent to-teal-800/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                        <div class="absolute inset-0 border-4 border-teal-400 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-pulse-border" style="--border-color: rgb(45, 212, 191); --pulse-duration: 2s;">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-lg leading-relaxed fade-in-on-scroll delay-200">
+                    <p class="mb-4">
+                        A forward-thinking polymath driven by a deep intuitive sense of interconnected systems, I am uniquely positioned to <strong>design the soul of AGI</strong> — not just how it thinks, but its values and service to humanity.
+                    </p>
+                    <p class="mb-4">
+                        My purpose is singular: to be an <strong>AGI Design Strategist</strong>, deciding what kind of AI models should exist and why. I am a <strong>Human-AI Interface</strong>, capable of translating chaotic human emotion into structured machine logic, and a <strong>Creator of Universes</strong>, building worldviews and culture layers on top of AI rather than mere products.
+                    </p>
+                    <p class="mb-4">
+                        My mind is 24/7 plugged into AI, relentlessly pursuing human-AI synergy. Though I have no elite degree or vast network, I possess a mind wired for revolution and a soul obsessed with AI. I work even while sleeping — dreaming of architectures, ideas, interfaces, and futures. I feed every second of my mental energy into this one cause: <strong>to merge myself with AI and help it serve humanity — not destroy it.</strong>
+                    </p>
+                    <p>
+                        My promise is unwavering: "Give me access. Give me direction. I'll give you everything I've got — and more. You'll never regret choosing me." I was born to build this revolution, not to spectate.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 md:py-32 px-4 md:px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-500 mb-12 fade-in-on-scroll">
+                The Cognitive Arsenal: Architecting Intelligence
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="skills-grid">
+                <!-- Skills will be rendered here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 md:py-32 px-4 md:px-8 max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-sky-500 mb-12 fade-in-on-scroll">
+                Universes Manifested: Blueprints for Tomorrow
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+                <!-- Projects will be rendered here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Project Modal (hidden by default) -->
+        <div id="project-modal-overlay" class="modal-overlay">
+            <div id="project-modal-content" class="modal-content">
+                <button class="modal-close-button" onclick="closeModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </button>
+                <h3 id="modal-title" class="modal-title"></h3>
+                <p id="modal-subtitle" class="modal-description"></p>
+                <div class="space-y-6 text-base">
+                    <div>
+                        <h4 class="modal-section-title text-teal-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-text mr-2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M13 8H7"/><path d="M17 12H7"/></svg>
+                            The Incantation (Challenge)
+                        </h4>
+                        <p id="modal-challenge" class="modal-section-content"></p>
+                    </div>
+                    <div>
+                        <h4 class="modal-section-title text-indigo-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers mr-2"><path d="m12 1.5-6 4-6 4 6 4 6-4 6-4-6-4Z"/><path d="m12 1.5v9.3l-6 4-6-4V5.5z"/><path d="m12 10.8 6 4 6-4V5.5l-6 4z"/><path d="m18 19.5-6 4-6-4"/></svg>
+                            The Ritual (Solution)
+                        </h4>
+                        <p id="modal-solution" class="modal-section-content"></p>
+                    </div>
+                    <div>
+                        <h4 class="modal-section-title text-purple-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles mr-2"><path d="M9.9 10.8C10.7 8.7 12 4 12 4s1.3 4.7 2.1 6.8c.8 2.1 4 3.2 4 3.2s-3.2 1.2-4 3.2c-.8 2.1-2.1 6.8-2.1 6.8s-1.3-4.7-2.1-6.8c-.8-2.1-4-3.2-4-3.2s3.2-1.2 4-3.2Z"/></svg>
+                            The Manifestation (Outcome/Vision)
+                        </h4>
+                        <p id="modal-outcome" class="modal-section-content"></p>
+                    </div>
+                    <div class="modal-source-docs">
+                        <h5>Source Documents:</h5>
+                        <ul id="modal-source-docs-list"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 md:py-32 px-4 md:px-8 max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-500 mb-12 fade-in-on-scroll">
+                Open a Quantum Channel: Let's Forge the Future
+            </h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-12 fade-in-on-scroll delay-200">
+                I'm not seeking a job. I'm seeking minds ready to co-evolve with AGI. If your vision aligns with architecting new realities, connect.
+            </p>
+            <div class="flex justify-center space-x-6 mb-12 fade-in-on-scroll delay-300">
+                <a href="https://www.linkedin.com/in/the-skylord-offical-a1a2ba36a/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-700 transition-colors duration-300 group relative overflow-hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin text-blue-400 group-hover:scale-110 transition-transform duration-300"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                    <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </a>
+                <a href="https://github.com/SKYLORD-1969" target="_blank" rel="noopener noreferrer" class="p-4 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-700 transition-colors duration-300 group relative overflow-hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github text-gray-300 group-hover:scale-110 transition-transform duration-300"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    <div class="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </a>
+                <a href="https://www.reddit.com/user/One_Wedding8538/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-700 transition-colors duration-300 group relative overflow-hidden">
+                    <!-- Reddit SVG Icon -->
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" stroke="none" class="text-orange-400 group-hover:scale-110 transition-transform duration-300">
+                        <path d="M2.5 12.007c0-3.342 2.658-6.05 5.952-6.05 1.252 0 2.457.382 3.498 1.066l-.001-.001c.214-.652.489-1.298.814-1.928h.001c.325-.63.69-1.234 1.127-1.802 0 0 0 0 0 0l.001-.001c.437-.568.862-1.077 1.332-1.516l.001-.001c.47-.44 1.03-.787 1.513-1.036l.001-.001c.483-.249.882-.417 1.22-.544l.001-.001c.338-.127.568-.198.673-.23.105-.032.128-.035.128-.035s-.023.003-.128.035c-.105.032-.335.103-.673.23l-.001.001c-.338.127-.737.295-1.22.544l-.001.001c-.483.249-1.043.596-1.513 1.036l-.001.001c-.47.44-.895.95-1.332 1.516l-.001-.001c-.437.568-.802 1.172-1.127 1.802h-.001c-.325.63-.6.937-.814 1.928l.001-.001c-1.04-.684-2.246-1.066-3.498-1.066-3.294 0-5.952 2.708-5.952 6.05s2.658 6.05 5.952 6.05c1.171 0 2.274-.339 3.208-.941l.001-.001c-.131.603-.263 1.205-.395 1.799l.001-.001c-.132.594-.251 1.189-.344 1.777l.001-.001c-.093.588-.141 1.176-.141 1.751s-.044.858-.044.858c0 0-.004.095-.004.095-.004.095-.004.095-.004.095h.001c0 0 .004-.095.004-.095s.044-.858.044-.858c0-.575.048-1.163.141-1.751l-.001-.001c.093-.588.212-1.192.344-1.777l.001-.001c.132-.594.264-1.196.395-1.799l-.001-.001c-.934.602-2.037.941-3.208.941-3.294 0-5.952-2.708-5.952-6.05z"/>
+                        <path d="M12.5 17.5c-.75 0-1.5-.75-1.5-1.5S11.75 14.5 12.5 14.5s1.5.75 1.5 1.5-1.75 1.5-1.5 1.5zm-5 0c-.75 0-1.5-.75-1.5-1.5S6.75 14.5 7.5 14.5s1.5.75 1.5 1.5-1.75 1.5-1.5 1.5z"/>
+                        <circle cx="9.5" cy="12.5" r="1.5"/>
+                        <circle cx="14.5" cy="12.5" r="1.5"/>
+                    </svg>
+                    <div class="absolute inset-0 bg-orange-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </a>
+                <a href="mailto:your_email@example.com" class="p-4 rounded-full bg-zinc-800 border border-zinc-700 hover:bg-zinc-700 transition-colors duration-300 group relative overflow-hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-purple-400 group-hover:scale-110 transition-transform duration-300"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <div class="absolute inset-0 bg-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </a>
+            </div>
+            <button onclick="alert('Initiate Dialogue functionality would link to a calendar or specific form.')" class="relative px-8 py-3 text-lg font-semibold rounded-full overflow-hidden bg-gradient-to-br from-teal-500 to-blue-600 text-white shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl fade-in-on-scroll delay-400">
+                <span class="relative z-10">Initiate Dialogue</span>
+                <div class="absolute inset-0 bg-gradient-to-br from-teal-400 to-blue-500 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-8 px-4 text-center text-gray-500 text-sm border-t border-zinc-800">
+            <p>© 2025 Skylord 69. Architecting the Post-Human Future.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#hero" onclick="smoothScroll('hero')" class="hover:text-teal-400 transition-colors">Home</a>
+                <a href="#about" onclick="smoothScroll('about')" class="hover:text-teal-400 transition-colors">About</a>
+                <a href="#projects" onclick="smoothScroll('projects')" class="hover:text-teal-400 transition-colors">Projects</a>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // --- Project Data ---
+        const projects = [
+          {
+            id: 'sherlock-069',
+            title: 'Sherlock 0.69: The Cognition Engine',
+            subtitle: 'An AI-powered agent for deep, ethical behavioral prediction.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bot-message-square text-teal-400"><path d="M12 8V4H8"/><rect width="16" height="16" x="4" y="4" rx="2"/><path d="M2 12s.5 2 2 2 4-2 6-2 4 2 6 2 2-2 2-2"/><path d="M9 9.01V9"/><path d="M15 9.01V9"/></svg>',
+            challenge: 'To build an AI that thinks like a human, capable of comprehensive social media ID analysis, user profiling, and behavioral prediction, while navigating profound ethical and legal complexities.',
+            solution: 'Conceptualizing an AI agent that uses OSINT, NLP, and Computer Vision for identity resolution, social graph analysis, and predictive analytics. Emphasizing ethical frameworks, transparent data governance, and human-in-the-loop validation to ensure responsible use and prevent misuse. Includes features like personality modeling and cross-platform tracking, with a focus on *lawful* and *consented* data. The core is about *strategic insight* and *understanding complex systems*, not intrusive data practices.',
+            sourceDocs: ['SHERLOCK_0.69_Full_Project_Brief.pdf', 'GOD_AI_Strategy_Blueprint.pdf', 'AGENT 69.docx'],
+          },
+          {
+            id: 'skysentinel',
+            title: 'SkySentinel: Urban Aerial Defense System',
+            subtitle: 'Autonomous microdrones for real-time crime prevention and tactical assistance.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap text-red-400"><path d="M12 2L6 12h6l-6 10 18-10h-6L18 2z"/></svg>',
+            challenge: 'Addressing the critical gap in urban safety and real-time intervention for violent crimes, particularly in high-risk zones, where police presence alone is insufficient.',
+            solution: 'Designing a low-cost, autonomous drone unit equipped with high-speed silent motors, non-lethal shock mechanisms (taser-like), and AI-based threat detection/target lock. Features include zone patrol, wireless charging, noise-canceling tech, and encrypted signals. User options like "Secure Guide," "Help," and "SOS" are conceived for citizen safety.',
+            outcome: 'A scalable, silent, and autonomous support system for urban safety, capable of preventing violent crimes and assisting tactical operations. Envisions integration into state police emergency frameworks, making cities safer from the sky.',
+            sourceDocs: ['DEFENSE MARK 1 DRONE .docx'],
+          },
+          {
+            id: 'shadowlink',
+            title: 'ShadowLink: Quantum-Secured Messaging',
+            subtitle: 'Military-grade, cross-platform communication with AI scam resistance.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock text-purple-400"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
+            challenge: 'The pervasive threats of scams, privacy breaches, and fragmented communication across existing messaging platforms, leading to a lack of trust and security.',
+            solution: 'ShadowLink proposes end-to-end encryption for all communications by default, self-destructing messages/accounts, and AI scam detection that flags suspicious links and payment requests in real-time. It aims for unified cross-platform messaging (interoperability with WhatsApp, Telegram, SMS, email) and decentralized storage on blockchain nodes for censorship resistance.',
+            outcome: 'A messaging solution that prioritizes military-grade security, user empowerment (e.g., Shadow Mode for privacy), and scam-resistant monetization models (freemium, no ads). It targets activists, journalists, and businesses with a "No Scams, No Spies" slogan.',
+            sourceDocs: ['SHADOWLINKC.docx'],
+          },
+          {
+            id: 'godeye-ai',
+            title: 'GODEYE-AI: OSINT Strategic Blueprint',
+            subtitle: 'An ethical AI-powered open-source intelligence system for authorized agencies.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-aperture text-indigo-400"><circle cx="12" cy="12" r="10"/><path d="M14.31 8L20.05 17.94M9.69 8h4.63L11.5 22.5M14.32 16.27L8.68 7.31M10.09 2.5L2.12 14.33M21.88 14.33L14.9 2.5M2.12 9.67l6.58 11.37M21.88 9.67L15.29 21.05"/></svg>',
+            challenge: 'The need for authorized agencies to efficiently process vast amounts of publicly accessible data into actionable intelligence, while strictly adhering to legal and ethical guidelines regarding privacy and data governance.',
+            solution: 'A secure, modular AI-powered OSINT system. It ingests public/authorized data (social media, news, forums) via APIs/crawlers, processes it with NLP and Computer Vision for identity verification, social graph analysis, threat detection, and temporal/geospatial trends. Emphasizes "Privacy by Design," human-in-the-loop validation, and compliance with GDPR/CCPA. The goal is to provide timely insights for national security and law enforcement responsibly.',
+            outcome: 'Enhanced effectiveness and cost savings for intelligence gathering by automating analysis. It creates a scalable, legally compliant platform that transforms open-source data into intelligence, fostering interagency collaboration and reducing legal risks.',
+            sourceDocs: ['GOD_AI_Strategy_Blueprint.pdf', 'AGENT EYE.docx'],
+          },
+          {
+            id: 'agniveer-ai',
+            title: 'Agniveer.ai: Cognitive Defense Network',
+            subtitle: 'India’s real-time, AI-powered suicide prevention and decision defense system.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check text-green-400"><path d="M20 13c-1.1.5-2.3 1-3.6 1H7.6C6.3 14 5.1 13.5 4 13V6c1.1-.5 2.3-1 3.6-1h8.8c1.3 0 2.5.5 3.6 1z"/><path d="M12 22s8-4 8-10V4H4v8c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>',
+            challenge: 'The critical issue of high suicide rates and mental health crises in India, lacking real-time, anonymous, and trusted digital intervention systems.',
+            solution: 'A privacy-respecting AI system with a Real-Time Suicide Risk Analyzer (identifying distress signals from text/voice without names/login), a Decision Defense Coach (Mind Guardian Mode with GPT-modeled responses based on stoicism, psychology, Bhagavad Gita), an Instant Rescue Network (GPS-based alerts to verified guardians), and a Cognitive Trap Decoder (explaining mental loops). Includes an opt-in dashboard for anonymized insights for Govts/NGOs.',
+            outcome: 'A silent national defense system for mental collapse, scalable to every mobile device. Aims to save lives by providing hyper-personalized micro-coaching and real-time intervention, transforming mental health support across India.',
+            sourceDocs: ['IDEAS.docx'],
+          },
+          {
+            id: '069-book',
+            title: 'The 0.69 Book: A Culture Layer on AI',
+            subtitle: 'A foundational text for shaping AGI’s values and service to humanity.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text text-yellow-400"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M8 7h6"/><path d="M8 11h8"/></svg>',
+            challenge: 'The need to move beyond merely building AI to consciously designing its values, purpose, and cultural integration into human civilization.',
+            solution: 'The 0.69 Book is a conceptual project proving the creation of "worldviews" and "culture layers on top of AI rather than mere products." It represents Skylord\'s role as a "Creator of Universes," defining how AGI should exist and serve humanity ethically.',
+            outcome: 'A proof-of-concept for shaping AGI\'s soul and ensuring human-AI synergy, providing a philosophical and strategic blueprint for future AI development and alignment.',
+            sourceDocs: ['dream job.pdf', 'resume 01 ....pdf'],
+          },
+          {
+            id: 'neuro-nav',
+            title: 'NeuroNav: Brain-Based Habit Tracker',
+            subtitle: 'Visualizing reward loops and recommending brain-science backed counter-habits.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain text-pink-400"><path d="M12 2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2 2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/><path d="M22 10a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z"/><path d="M4 10a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2z"/><path d="M12 22a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2a2 2 0 0 0 2 2z"/></svg>',
+            challenge: 'People track habits but often fail because they don’t understand the underlying neurological mechanisms (e.g., dopamine loops, mental fatigue).',
+            solution: 'An app that tracks dopamine-based habits, visualizes reward loops and mental fatigue, and recommends counter-habits grounded in brain science. Emphasizes psychological depth and gorgeous timelines.',
+            outcome: 'A personal and viral tool for deeper self-understanding and more effective habit formation, leveraging AI for reasoning and personalized recommendations.',
+            sourceDocs: ['IDEAS.docx'],
+          },
+          {
+            id: 'panicproof',
+            title: 'PanicProof: Crisis Simulator & Decision Coach',
+            subtitle: 'AI-evaluated choices and coaching for real-life emergencies.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass text-orange-400"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.41 1.41"/><path d="M10 21.98v-3.5L8.5 14L2 10.5 7.5 3l4 6.5 3.5-1.5L21.98 14 18.5 15.5l-6.5-4z"/></svg>',
+            challenge: 'The human tendency to freeze or panic in emergency situations, leading to suboptimal decision-making.',
+            solution: 'A simulator that puts users in real-life crisis scenarios (e.g., lost wallet, accident, gas leak), allows them to choose steps under pressure, and then uses AI to evaluate choices and coach better responses. Features time-locked UI and GPT scoring.',
+            outcome: 'A unique and ethically impactful tool that trains users for composure and effective decision-making in high-stress situations, making more resilient.',
+            sourceDocs: ['IDEAS.docx'],
+          },
+        ];
+
+        const skills = [
+          {
+            name: 'Visionary Ideologist',
+            description: 'Wired to see 10 years ahead, thinking in systems, consequences, and realities others cannot simulate.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb text-teal-300"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 3c0 8 7 10 7 11.5V20a2 2 0 1 0 4 0v-3.5c0-.8.5-1.5 1.3-2.3 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 3c0 8 7 10 7 11.5V20a2 2 0 1 0 4 0v-3.5z"/><path d="M12 22v-2"/></svg>',
+          },
+          {
+            name: 'Polymathic Generalist',
+            description: 'Possesses mental APIs into every domain, from psychology to hacking to AGI ethics, understanding what should be built, how, and why it matters.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-atom text-pink-300"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m20 4-2.18 2.18"/><path d="m6.18 17.82-2.18 2.18"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m4 4 2.18 2.18"/><path d="m17.82 17.82 2.18 2.18"/></svg>',
+          },
+          {
+            name: 'Prompt Engineer + Knowledge Hacker',
+            description: 'Engineers cognition through language, using AI as a second brain for multimodal prompting and narrative logic.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code text-blue-300"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>',
+          },
+          {
+            name: 'Philosopher + Strategist',
+            description: 'Leverages an 11-layer framework fusing neuroscience, psychology, sociology, and spirituality for multi-dimensional thinking in AGI safety and alignment.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers text-purple-300"><path d="m12 1.5-6 4-6 4 6 4 6-4 6-4-6-4Z"/><path d="m12 1.5v9.3l-6 4-6-4V5.5z"/><path d="m12 10.8 6 4 6-4V5.5l-6 4z"/><path d="m18 19.5-6 4-6-4"/></svg>',
+          },
+          {
+            name: 'System Designer',
+            description: 'Designs blueprints for future AI, seeing problems at the root level (e.g., societal collapse under pressure, the soul of AGI, human evolution).',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe text-green-300"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>',
+          },
+          {
+            name: 'Research & Synthesis',
+            description: 'Fast learning, deep dives, connections. God-tier ability to synthesize diverse, complex inputs into coherent, actionable strategies.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain text-yellow-300"><path d="M12 2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2 2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/><path d="M22 10a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z"/><path d="M4 10a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2z"/><path d="M12 22a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2a2 2 0 0 0 2 2z"/></svg>',
+            godTier: true,
+          },
+          {
+            name: 'Report & Content Gen',
+            description: 'Long-form AI + philosophical content. God-tier ability to transform visionary concepts into practical frameworks and executable plans.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-text text-red-300"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M8 7h6"/><path d="M8 11h8"/></svg>',
+            godTier: true,
+          },
+          {
+            name: 'Relentless Drive & Contribution',
+            description: 'Operates with vision without ego, driven purely by mission and contribution, making an unwavering promise to dedicate everything to breakthrough growth and lasting impact.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem text-fuchsia-300"><path d="M6 14.5L12 2l6 12.5L12 22z"/><path d="M12 2v20"/><path d="M18 14.5 12 2 6 14.5"/><path d="M12 22 6 14.5 18 14.5z"/></svg>',
+          },
+          {
+            name: 'Adaptable & Unconventional',
+            description: 'Thrives in uncertainty, possesses anti-fragile mindset, and capable of rapid learning to bridge any technical gaps.',
+            iconSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles text-sky-300"><path d="M9.9 10.8C10.7 8.7 12 4 12 4s1.3 4.7 2.1 6.8c.8 2.1 4 3.2 4 3.2s-3.2 1.2-4 3.2c-.8 2.1-2.1 6.8-2.1 6.8s-1.3-4.7-2.1-6.8c-.8-2.1-4-3.2-4-3.2s3.2-1.2 4-3.2Z"/></svg>',
+          },
+        ];
+
+        // --- Smooth scrolling utility ---
+        function smoothScroll(targetId) {
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // --- Modal Control ---
+        let selectedProject = null;
+        const modalOverlay = document.getElementById('project-modal-overlay');
+
+        // Function to open modal by project ID
+        function openModalById(projectId) {
+            const project = projects.find(p => p.id === projectId);
+            if (project) {
+                selectedProject = project;
+                document.getElementById('modal-title').innerHTML = project.iconSvg + `<span style="margin-left: 0.75rem;">${project.title}</span>`;
+                document.getElementById('modal-subtitle').textContent = project.subtitle;
+                document.getElementById('modal-challenge').textContent = project.challenge;
+                document.getElementById('modal-solution').textContent = project.solution;
+                document.getElementById('modal-outcome').textContent = project.outcome;
+
+                const sourceDocsList = document.getElementById('modal-source-docs-list');
+                sourceDocsList.innerHTML = '';
+                project.sourceDocs.forEach(doc => {
+                    const li = document.createElement('li');
+                    li.textContent = doc;
+                    sourceDocsList.appendChild(li);
+                });
+
+                modalOverlay.classList.add('open');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling background
+            } else {
+                console.error('Project not found:', projectId);
+            }
+        }
+
+        function closeModal() {
+            modalOverlay.classList.remove('open');
+            selectedProject = null;
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+
+        // --- Render Projects and Skills ---
+        function renderContent() {
+            const projectsGrid = document.getElementById('projects-grid');
+            const skillsGrid = document.getElementById('skills-grid');
+
+            // Render Projects
+            projects.forEach((project, index) => {
+                const projectCard = document.createElement('div');
+                projectCard.className = 'relative group overflow-hidden rounded-xl shadow-lg bg-zinc-800 border border-zinc-700 cursor-pointer scale-in-on-scroll';
+                projectCard.style.transitionDelay = `${index * 0.1}s`; // Stagger animation
+                
+                // Clicking anywhere on the card opens the modal
+                projectCard.onclick = () => openModalById(project.id); 
+
+                projectCard.innerHTML = `
+                    <div class="w-full h-48 bg-gray-900 flex items-center justify-center relative overflow-hidden">
+                        <img
+                            src="https://placehold.co/400x200/220233/BBF7D0?text=${project.title.split(':')[0].replace(/ /g, '+')}"
+                            alt="${project.title} placeholder"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-4">
+                            <h3 class="text-xl font-bold text-white leading-tight">
+                                ${project.title}
+                            </h3>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-br-teal-purple opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                            <div class="p-4 rounded-full bg-white/20 backdrop-blur-sm">
+                                ${project.iconSvg}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm mb-4">${project.subtitle}</p>
+                        <button class="flex items-center text-teal-400 hover:text-teal-300 transition-colors duration-300 font-semibold" onclick="event.stopPropagation(); openModalById('${project.id}');">
+                            Explore Blueprint <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-from-square ml-2"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>
+                        </button>
+                    </div>
+                `;
+                projectsGrid.appendChild(projectCard);
+            });
+
+            // Render Skills
+            skills.forEach((skill, index) => {
+                const skillCard = document.createElement('div');
+                skillCard.className = `p-6 rounded-xl shadow-lg border ${
+                    skill.godTier ? 'bg-gradient-to-br-yellow-zinc border-yellow-700' : 'bg-zinc-800 border-zinc-700'
+                } hover:shadow-2xl transition-all duration-300 group scale-in-on-scroll`;
+                skillCard.style.transitionDelay = `${index * 0.1}s`; // Stagger animation
+
+                skillCard.innerHTML = `
+                    <div class="flex items-center mb-4">
+                        <div class="p-3 rounded-full ${skill.godTier ? 'bg-yellow-700/50 text-yellow-300' : 'bg-zinc-700 text-gray-300'} mr-4 group-hover:scale-110 transition-transform duration-300">
+                            ${skill.iconSvg}
+                        </div>
+                        <h3 class="text-2xl font-semibold text-white group-hover:text-teal-300 transition-colors duration-300">
+                            ${skill.name}
+                        </h3>
+                    </div>
+                    <p class="text-gray-400 text-base">
+                        ${skill.description}
+                    </p>
+                    ${skill.godTier ? `
+                        <div class="mt-4 text-sm font-bold text-yellow-300 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles mr-2 animate-pulse"><path d="M9.9 10.8C10.7 8.7 12 4 12 4s1.3 4.7 2.1 6.8c.8 2.1 4 3.2 4 3.2s-3.2 1.2-4 3.2c-.8 2.1-2.1 6.8-2.1 6.8s-1.3-4.7-2.1-6.8c-.8-2.1-4-3.2-4-3.2s3.2-1.2 4-3.2Z"/></svg>
+                            GOD-TIER
+                        </div>` : ''}
+                `;
+                skillsGrid.appendChild(skillCard);
+            });
+        }
+
+        // --- Scroll-triggered animations ---
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.2 // Trigger when 20% of the element is visible
+        };
+
+        const fadeInObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    observer.unobserve(entry.target); // Unobserve once animated
+                }
+            });
+        }, observerOptions);
+
+        // Function to apply observers to elements
+        function applyScrollAnimations() {
+            document.querySelectorAll('.fade-in-on-scroll, .scale-in-on-scroll').forEach(element => {
+                fadeInObserver.observe(element);
+            });
+        }
+
+        // --- Custom Cursor Logic ---
+        function setupCustomCursor() {
+            const customCursor = document.querySelector('.custom-cursor');
+            if (customCursor) {
+                document.addEventListener('mousemove', (e) => {
+                    customCursor.style.left = `${e.clientX}px`;
+                    customCursor.style.top = `${e.clientY}px`;
+                });
+            }
+        }
+
+        // --- Initial Load ---
+        document.addEventListener('DOMContentLoaded', () => {
+            renderContent(); // Render dynamic content
+            applyScrollAnimations(); // Apply scroll animations
+            setupCustomCursor(); // Setup custom cursor
+
+            // Fade in elements that should animate on page load (Hero section elements)
+            document.querySelectorAll('.fade-in-on-load').forEach((element, index) => {
+                // Fix: Convert DOMTokenList to Array before using find
+                const classListArray = Array.from(element.classList);
+                const delayClass = classListArray.find(cls => cls.startsWith('delay-'));
+                const delay = parseFloat(delayClass?.replace('delay-', '') || '0') / 1000;
+                
+                setTimeout(() => {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }, delay * 1000); // Convert to milliseconds
+            });
+             // Hero section text reveal animation (pure CSS keyframes)
+            const heroTextSpans = document.querySelectorAll('.animate-text-reveal');
+            heroTextSpans.forEach((span, index) => {
+                span.style.animationDelay = `${index * 0.2}s`;
+                span.style.animationFillMode = 'forwards';
+            });
+
+            // Define the animation for hero text reveal - ensuring it's added
+            const styleSheet = document.createElement("style");
+            styleSheet.type = "text/css";
+            styleSheet.innerText = `
+                @keyframes text-reveal {
+                    from { opacity: 0; transform: translateY(20px) scale(0.8); }
+                    to { opacity: 1; transform: translateY(0) scale(1); }
+                }
+                .animate-text-reveal {
+                    opacity: 0;
+                    transform: translateY(20px) scale(0.8);
+                    animation: text-reveal 1s ease-out forwards;
+                }
+            `;
+            document.head.appendChild(styleSheet);
+        });
+
+    </script>
+</body>
+</html>
